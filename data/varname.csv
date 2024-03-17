@@ -1,0 +1,63 @@
+Fichier;var;nomvar;vartype;type;garder_analyse;commentaire
+CARACTERISTIQUES;Num_Acc;Numéro d'identifiant de l'accident ;id;index;0;
+CARACTERISTIQUES;jour;Jour de l'accident ;num;int64;2;
+CARACTERISTIQUES;mois;Mois de l'accident ;num;int64;1;
+CARACTERISTIQUES;an;Année de l'accident;num;int64;1;l'an peut être inclus tel quel mais aussi transformé en date. A réfléchir
+CARACTERISTIQUES;hrmn;Heure et minutes de l'accident;num;int64;2;
+CARACTERISTIQUES;lum;Lumière : conditions d'éclairage dans lesquelles l'accident s'est produit;cat;int64;1;
+CARACTERISTIQUES;dep;Département : Code INSEE (Institut National de la Statistique et des Etudes Economiques) du département (2A Corse-du-Sud – 2B Haute-Corse).;cat;int64;1;
+CARACTERISTIQUES;com;"Commune : Le numéro de commune est un code donné par l‘INSEE. Le code est composé du code 
+INSEE du département suivi par 3 chiffres. ";cat;float64;2;
+CARACTERISTIQUES;agg;Localisation :;cat;int64;1;
+CARACTERISTIQUES;int;Intersection :;cat;int64;1;
+CARACTERISTIQUES;atm;Conditions atmosphériques :;cat;int64;1;
+CARACTERISTIQUES;col;Type de collision :;cat;int64;1;
+CARACTERISTIQUES;adr;Adresse postale : variable renseignée pour les accidents survenus en agglomération;cat;object;2;
+CARACTERISTIQUES;lat;Latitude;num;float64;1;
+CARACTERISTIQUES;long;Longitude;num;float64;1;
+LIEUX;Num_Acc;"Identifiant de l'accident identique à celui du fichier ""rubrique CARACTERISTIQUES"" repris dans l'accident ";id;index;0;
+LIEUX;catr;Catégorie de route :;cat;float64;1;
+LIEUX;voie;Numéro de la route;cat;float64;0;
+LIEUX;v1;Indice numérique du numéro de route (exemple : 2 bis, 3 ter etc.);cat;float64;0;
+LIEUX;v2;Lettre indice alphanumérique de la route;cat;object;0;
+LIEUX;circ;Régime de circulation :;cat;int64;1;
+LIEUX;nbv;Nombre total de voies de circulation;num;int64;1;
+LIEUX;vosp;Signale l'existence d'une voie réservée, indépendamment du fait que l'accident ait lieu ou non sur cette voie.;cat;int64;1;
+LIEUX;prof;Profil en long décrit la déclivité de la route à l'endroit de l'accident;cat;int64;1;
+LIEUX;pr;Numéro du PR de rattachement (numéro de la borne amont). La valeur (1) signifie que le PR n'est pas renseigné.;num;float64;0;Note : on a remplacé (1) par NA lors de la lecture
+LIEUX;pr1;Distance en mètres au PR (par rapport à la borne amont). La valeur (1) signifie que le PR n'est pas renseigné.;num;float64;0;Note : on a remplacé (1) par NA lors de la lecture
+LIEUX;plan;Tracé en plan :;cat;int64;1;
+LIEUX;lartpc;Largeur du terre plein central (TPC) s'il existe;num;int64;0;
+LIEUX;larrout;Largeur de la chaussée affectée à la circulation des véhicules ne sont pas compris les bandes d'arrêt d'urgence, les TPC et les places de stationnement;num;int64;0;
+LIEUX;surf;Etat de la surface;cat;int64;1;
+LIEUX;infra;Aménagement - Infrastructure :;cat;int64;1;
+LIEUX;situ;Situation de l'accident :;cat;int64;1;
+LIEUX;vma;Vitesse maximale autorisée sur le lieu et au moment de l'accident.;num;int64;2;nécessite d'abord un pre-traitement: beaucoup de valeurs étranges : à remplacer par des NA ?
+VÉHICULES;Num_Acc;"Identifiant de l'accident identique à celui du fichier ""rubrique CARACTERISTIQUES"" repris pour chacun des véhicules décrits impliqués dans l'accident. ";id;index;0;
+VÉHICULES;Num_Veh;Identifiant unique du véhicule repris pour chacun des usagers occupant ce véhicule (y compris les piétons qui sont rattachés aux véhicules qui les ont heurtés) – Code numérique.;id;object;0;
+VÉHICULES;senc;Sens de circulation :;cat;int64;0;
+VÉHICULES;catv;Catégorie du véhicule :;cat;int64;1;
+VÉHICULES;obs;Obstacle fixe heurté :;cat;int64;1;
+VÉHICULES;obsm;Obstacle mobile heurté :;cat;int64;1;
+VÉHICULES;choc;Point de choc initial :;cat;int64;1;
+VÉHICULES;manv;Manoeuvre principale avant l'accident :;cat;int64;1;
+VÉHICULES;motor;Type de motorisation du véhicule :;cat;int65;2;
+VÉHICULES;occutc;Nombre d'occupants dans le transport en commun;num;int64;0;
+USAGERS;Num_Acc;"Identifiant de l'accident identique à celui du fichier ""rubrique CARACTERISTIQUES"" repris pour chacun des usagers décrits impliqués dans l'accident ";id;index;0;
+USAGERS;id_usager;Identifiant unique de l'usager (y compris les piétons qui sont rattachés aux véhicules qui les ont heurtés) - Code numérique.;id;index;0;
+USAGERS;id_vehicule ;"Identifiant unique du véhicule repris pour chacun des usagers occupant ce véhicule (y compris les 
+piétons qui sont rattachés aux véhicules qui les ont heurtés) – Code numérique";id;index;0;
+USAGERS;Num_Veh;Identifiant du véhicule repris pour chacun des usagers occupant ce véhicule (y compris les piétons qui sont rattachés aux véhicules qui les ont heurtés) – Code alphanumérique;id;object;0;
+USAGERS;place;Permet de situer la place occupée dans le véhicule par l'usager au moment de l'accident;cat;int64;2;
+USAGERS;catu;Catégorie d'usager :;cat;int64;1;
+USAGERS;grav;Gravité de blessure de l'usager, les usagers accidentés sont classés en trois catégories de victimes plus les indemnes :;cat;int64;1;
+USAGERS;sexe;Sexe de l'usager;cat;int64;1;
+USAGERS;an_nais;Année de naissance de l'usager;num;float64;1;
+USAGERS;trajet;Motif du déplacement au moment de l'accident :;cat;int64;1;
+USAGERS;secu1;Le renseignement du caractère indique la présence et l'utilisation de l'équipement de sécurité : ;cat;int64;2;
+USAGERS;secu2;Le renseignement du caractère indique la présence et l'utilisation de l'équipement de sécurité : ;cat;int64;0;majorité de valeurs manquantes
+USAGERS;secu3;Le renseignement du caractère indique la présence et l'utilisation de l'équipement de sécurité : ;cat;int64;0;majorité de valeurs manquantes
+USAGERS;locp;Localisation du piéton :;cat;int64;2;beaucoup de valeurs manquantes car tous les accidents n'impliquent pas un piéton : à voir comment gérer cela,
+USAGERS;actp;Action du piéton :;cat;int64;2;
+USAGERS;etatp;Cette variable permet de préciser si le piéton accidenté était seul ou non;cat;int64;2;
+CONSTRUITE;nb_users_in_veh;Nombre d'usagers dans le véhicule;num;int65;1;

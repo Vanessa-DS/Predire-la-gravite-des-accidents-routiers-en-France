@@ -1,0 +1,102 @@
+dep;reg;nom_dep;nom_reg
+01;84;Ain;Auvergne-Rhône-Alpes
+02;32;Aisne;Hauts-de-France
+03;84;Allier;Auvergne-Rhône-Alpes
+04;93;Alpes-de-Haute-Provence;Provence-Alpes-Côte d'Azur
+05;93;Hautes-Alpes;Provence-Alpes-Côte d'Azur
+06;93;Alpes-Maritimes;Provence-Alpes-Côte d'Azur
+07;84;Ardèche;Auvergne-Rhône-Alpes
+08;44;Ardennes;Grand Est
+09;76;Ariège;Occitanie
+10;44;Aube;Grand Est
+11;76;Aude;Occitanie
+12;76;Aveyron;Occitanie
+13;93;Bouches-du-Rhône;Provence-Alpes-Côte d'Azur
+14;28;Calvados;Normandie
+15;84;Cantal;Auvergne-Rhône-Alpes
+16;75;Charente;Nouvelle-Aquitaine
+17;75;Charente-Maritime;Nouvelle-Aquitaine
+18;24;Cher;Centre-Val de Loire
+19;75;Corrèze;Nouvelle-Aquitaine
+21;27;Côte-d'Or;Bourgogne-Franche-Comté
+22;53;Côtes-d'Armor;Bretagne
+23;75;Creuse;Nouvelle-Aquitaine
+24;75;Dordogne;Nouvelle-Aquitaine
+25;27;Doubs;Bourgogne-Franche-Comté
+26;84;Drôme;Auvergne-Rhône-Alpes
+27;28;Eure;Normandie
+28;24;Eure-et-Loir;Centre-Val de Loire
+29;53;Finistère;Bretagne
+2A;94;Corse-du-Sud;Corse
+2B;94;Haute-Corse;Corse
+30;76;Gard;Occitanie
+31;76;Haute-Garonne;Occitanie
+32;76;Gers;Occitanie
+33;75;Gironde;Nouvelle-Aquitaine
+34;76;Hérault;Occitanie
+35;53;Ille-et-Vilaine;Bretagne
+36;24;Indre;Centre-Val de Loire
+37;24;Indre-et-Loire;Centre-Val de Loire
+38;84;Isère;Auvergne-Rhône-Alpes
+39;27;Jura;Bourgogne-Franche-Comté
+40;75;Landes;Nouvelle-Aquitaine
+41;24;Loir-et-Cher;Centre-Val de Loire
+42;84;Loire;Auvergne-Rhône-Alpes
+43;84;Haute-Loire;Auvergne-Rhône-Alpes
+44;52;Loire-Atlantique;Pays de la Loire
+45;24;Loiret;Centre-Val de Loire
+46;76;Lot;Occitanie
+47;75;Lot-et-Garonne;Nouvelle-Aquitaine
+48;76;Lozère;Occitanie
+49;52;Maine-et-Loire;Pays de la Loire
+50;28;Manche;Normandie
+51;44;Marne;Grand Est
+52;44;Haute-Marne;Grand Est
+53;52;Mayenne;Pays de la Loire
+54;44;Meurthe-et-Moselle;Grand Est
+55;44;Meuse;Grand Est
+56;53;Morbihan;Bretagne
+57;44;Moselle;Grand Est
+58;27;Nièvre;Bourgogne-Franche-Comté
+59;32;Nord;Hauts-de-France
+60;32;Oise;Hauts-de-France
+61;28;Orne;Normandie
+62;32;Pas-de-Calais;Hauts-de-France
+63;84;Puy-de-Dôme;Auvergne-Rhône-Alpes
+64;75;Pyrénées-Atlantiques;Nouvelle-Aquitaine
+65;76;Hautes-Pyrénées;Occitanie
+66;76;Pyrénées-Orientales;Occitanie
+67;44;Bas-Rhin;Grand Est
+68;44;Haut-Rhin;Grand Est
+69;84;Rhône;Auvergne-Rhône-Alpes
+70;27;Haute-Saône;Bourgogne-Franche-Comté
+71;27;Saône-et-Loire;Bourgogne-Franche-Comté
+72;52;Sarthe;Pays de la Loire
+73;84;Savoie;Auvergne-Rhône-Alpes
+74;84;Haute-Savoie;Auvergne-Rhône-Alpes
+75;11;Paris;Ile-de-France
+76;28;Seine-Maritime;Normandie
+77;11;Seine-et-Marne;Ile-de-France
+78;11;Yvelines;Ile-de-France
+79;75;Deux-Sèvres;Nouvelle-Aquitaine
+80;32;Somme;Hauts-de-France
+81;76;Tarn;Occitanie
+82;76;Tarn-et-Garonne;Occitanie
+83;93;Var;Provence-Alpes-Côte d'Azur
+84;93;Vaucluse;Provence-Alpes-Côte d'Azur
+85;52;Vendée;Pays de la Loire
+86;75;Vienne;Nouvelle-Aquitaine
+87;75;Haute-Vienne;Nouvelle-Aquitaine
+88;44;Vosges;Grand Est
+89;27;Yonne;Bourgogne-Franche-Comté
+90;27;Territoire de Belfort;Bourgogne-Franche-Comté
+91;11;Essonne;Ile-de-France
+92;11;Hauts-de-Seine;Ile-de-France
+93;11;Seine-Saint-Denis;Ile-de-France
+94;11;Val-de-Marne;Ile-de-France
+95;11;Val-d'Oise;Ile-de-France
+971;01;Guadeloupe;Guadeloupe
+972;02;Martinique;Martinique
+973;03;Guyane;Guyane
+974;04;La Réunion;La Réunion
+976;06;Mayotte;Mayotte
