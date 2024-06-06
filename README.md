@@ -4,10 +4,10 @@ Le but de ce projet est de  **prédire la gravité des accidents en France** d'a
 
 Ce projet a étét développé par l'équipe suivante : 
 
-- Matthieu Claudel ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
+- Matthieu Claudel ([LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
 - Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert))
-- Camille Pelat ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
-- Nadège Reboul ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
+- Camille Pelat ([LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
+- Nadège Reboul (LinkedIn](http://www.linkedin.com/in/nadege-reboul))
 
 Vous pouvez parcourir et exécuter les [notebooks](./notebooks). 
 
