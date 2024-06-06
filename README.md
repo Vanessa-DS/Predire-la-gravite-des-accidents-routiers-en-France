@@ -4,10 +4,10 @@ Le but de ce projet est de  **prédire la gravité des accidents en France** d'a
 
 Ce projet a étét développé par l'équipe suivante : 
 
-- Matthieu Claudel 
+- Matthieu Claudel ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
 - Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert))
-- Camille Pelat 
-- Nadège Reboul 
+- Camille Pelat ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
+- Nadège Reboul ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
 
 Vous pouvez parcourir et exécuter les [notebooks](./notebooks). 
 
@@ -16,3 +16,4 @@ Vous aurez besoin d'installer les dépendances suivantes (dans un environnement 
 ```
 pip install -r requirements.txt
 ```
+
