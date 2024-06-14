@@ -16,10 +16,10 @@ Une attention spéciale a été portée à l'identification des facteurs influan
 
 Ce projet a été développé par l'équipe suivante : 
 
-- Matthieu Claudel ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
+- Matthieu Claudel ([LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
 - Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert))
-- Camille Pelat ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
-- Nadège Reboul ([GitHub](https://github.com/) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
+- Camille Pelat ([LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
+- Nadège Reboul ([LinkedIn](http://www.linkedin.com/in/nadege-reboul))
 
 ## Installation
 **Cloner le projet**
