@@ -16,10 +16,10 @@ Une attention spéciale a été portée à l'identification des facteurs influan
 
 Ce projet a été développé par l'équipe suivante : 
 
-- Matthieu Claudel ([LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
+- Matthieu Claudel ([GitHub](https://github.com/matthieuclaudel) / [LinkedIn](http://www.linkedin.com/in/matthieu-claudel-8a927857))
 - Vanessa Ibert ([GitHub](https://github.com/Vanessa-DS) / [LinkedIn](http://www.linkedin.com/in/vanessa-ibert))
-- Camille Pelat ([LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
-- Nadège Reboul ([LinkedIn](http://www.linkedin.com/in/nadege-reboul))
+- Camille Pelat ([GitHub](https://github.com/cpelat) / [LinkedIn](http://www.linkedin.com/in/camille-pelat-08a7b68a))
+- Nadège Reboul ([GitHub](https://github.com/Nadege-R) / [LinkedIn](http://www.linkedin.com/in/nadege-reboul))
 
 ## Installation
 **Cloner le projet**
@@ -48,13 +48,13 @@ Créez un fichier *global_conf.yml* dans le sous-dossier conf/ de sept23_cds_acc
 
 **Création du fichier de données global**
 
-Exécutez en premier lieu le notebook notebook\Creation_Nettoyage_Preprocessing_Dataset\Creation_dataset.ipynb qui lit les différents jeux de données csv, les concatène et les sauve dans le dossier local.
-La base de données est en effet constituées de 4 fichiers (caracteristiques.csv, usagers.csv, vehicules.csv, lieux.csv), par année (de 2019 à 2022), donc 16 fichiers en tout.
-Le fichier csv créé, *accidents.csv*, sera appelé dans les autres notebooks.
+Le notebook notebook\Creation_Nettoyage_Preprocessing_Dataset\Creation_dataset.ipynb lit les différents jeux de données csv, les concatène et les sauve dans le dossier local sous le nom accidents.csv.
+La base de données brute est en effet constituées de 4 fichiers (caracteristiques.csv, usagers.csv, vehicules.csv, lieux.csv), par année (de 2019 à 2022), donc 16 fichiers en tout.
+Le fichier *data/accidents.zip* du dépôt Github est une version compressée du fichier accidents.csv.
 
 **Création du fichier nettoyé, pour la modélisation**
 
-Executez ensuite le notebook notebook\Creation_Nettoyage_Preprocessing_Dataset\Nettoyage_dataset.ipynb, qui lit le fichier *accidents.csv*, applique un pre-processing (nettoyage, recodage, création de vairables) et sauve dans le répertoire local choisi les différents fichiers nettoyés, notamment le principal : *data_cleaned_final*, qui sera appelé dans les notebook de modélisation.
+Le notebook notebook\Creation_Nettoyage_Preprocessing_Dataset\Nettoyage_dataset.ipynb lit le fichier *data/accidents.zip*, applique un pre-processing (nettoyage, recodage, création de vairables) et sauve dans le répertoire local indiqué dans le fichier de configuration les différents fichiers nettoyés, notamment le principal : *data_cleaned_final*, qui sera appelé dans les notebook de modélisation.
 
 ## Lancer l'application Streamlit
 
