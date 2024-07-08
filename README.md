@@ -26,7 +26,7 @@ Ce projet a été développé par l'équipe suivante :
 
 Vous pouvez cloner le projet grâce à l'instruction suivante qui va créer un dossier sept23_cds_accidents2 dans votre répertoire courant:
 ```shell
-git clone https://github.com/DataScientest-Studio/sept23_cds_accidents2.git
+git clone git clone https://github.com/DataScientest-Studio/sept23_cds_accidents2.git
 ```
 
 
